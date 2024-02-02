@@ -1,0 +1,23 @@
+{
+  "name": "convert-markdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "string-utility": "./app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "after-load": "^1.0.4",
+    "commander": "^11.1.0",
+    "jsdom": "^23.0.1",
+    "node-fetch": "^2.7.0",
+    "turndown": "^7.1.2"
+  }
+}
